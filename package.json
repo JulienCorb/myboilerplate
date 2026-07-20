@@ -7,7 +7,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "build": "bun run nest build",
-    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "format": "prettier --write \"src/**/*.ts\" \"e2e-tests/**/*.ts\"",
     "start": "bun run src/main.ts",
     "start:dev": "bun --hot run src/main.ts",
     "start:debug": "bun --hot run src/main.ts --debug ",
@@ -33,7 +33,7 @@
     "eslint": "^10.7.0",
     "globals": "^17.7.0",
     "jiti": "^2.7.0",
-    "prettier": "^3.4.2",
+    "prettier": "^3.9.5",
     "typescript": "^5.7.3",
     "typescript-eslint": "^8.64.0"
   }
